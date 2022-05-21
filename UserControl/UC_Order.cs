@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PBL3_Guna
+namespace PBL3_Guna.UserControl
 {
-    public partial class Form2 : Form
+    public partial class UC_Order : UserControl
     {
-        public Form2()
+        public UC_Order()
         {
             InitializeComponent();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
