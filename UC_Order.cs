@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PBL3_Guna.UserControl
+namespace PBL3_Guna
 {
     public partial class UC_Order : UserControl
     {

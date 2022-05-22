@@ -16,5 +16,10 @@ namespace PBL3_Guna
         {
             InitializeComponent();
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

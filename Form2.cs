@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PBL3_Guna
 {
-    public partial class UC_Home : UserControl
+    public partial class Form2 : Form
     {
-        public UC_Home()
+        public Form2()
         {
             InitializeComponent();
         }

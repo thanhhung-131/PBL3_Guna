@@ -1,4 +1,4 @@
-﻿namespace PBL3_Guna.UserControl
+﻿namespace PBL3_Guna
 {
     partial class UC_Order
     {
@@ -28,8 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // UC_Order
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Name = "UC_Order";
+            this.Size = new System.Drawing.Size(951, 560);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
