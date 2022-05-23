@@ -43,7 +43,7 @@
             this.guna2Panel1.Controls.Add(this.guna2Button3);
             this.guna2Panel1.Controls.Add(this.guna2Button2);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
-            this.guna2Panel1.Location = new System.Drawing.Point(364, 261);
+            this.guna2Panel1.Location = new System.Drawing.Point(362, 261);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(245, 222);
             this.guna2Panel1.TabIndex = 4;

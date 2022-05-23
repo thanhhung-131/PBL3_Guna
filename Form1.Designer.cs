@@ -42,14 +42,17 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnOrder = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.PanelContainer = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.PanelContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -145,7 +148,7 @@
             this.guna2Panel2.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel2.Controls.Add(this.guna2Button4);
             this.guna2Panel2.Controls.Add(this.guna2Button3);
-            this.guna2Panel2.Controls.Add(this.guna2Button2);
+            this.guna2Panel2.Controls.Add(this.btnOrder);
             this.guna2Panel2.Controls.Add(this.label1);
             this.guna2Panel2.Controls.Add(this.btnHome);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
@@ -185,6 +188,7 @@
             this.guna2Button4.Size = new System.Drawing.Size(134, 40);
             this.guna2Button4.TabIndex = 8;
             this.guna2Button4.Text = "Log out";
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button3
             // 
@@ -206,27 +210,29 @@
             this.guna2Button3.Size = new System.Drawing.Size(134, 40);
             this.guna2Button3.TabIndex = 7;
             this.guna2Button3.Text = "Information";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
-            // guna2Button2
+            // btnOrder
             // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.BorderRadius = 10;
-            this.guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
-            this.guna2Button2.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.FocusedColor = System.Drawing.Color.White;
-            this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Location = new System.Drawing.Point(12, 162);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(134, 40);
-            this.guna2Button2.TabIndex = 6;
-            this.guna2Button2.Text = "Order";
+            this.btnOrder.Animated = true;
+            this.btnOrder.BorderRadius = 10;
+            this.btnOrder.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnOrder.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
+            this.btnOrder.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnOrder.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnOrder.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnOrder.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnOrder.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnOrder.FillColor = System.Drawing.Color.Transparent;
+            this.btnOrder.FocusedColor = System.Drawing.Color.White;
+            this.btnOrder.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnOrder.ForeColor = System.Drawing.Color.Black;
+            this.btnOrder.Location = new System.Drawing.Point(12, 162);
+            this.btnOrder.Name = "btnOrder";
+            this.btnOrder.Size = new System.Drawing.Size(134, 40);
+            this.btnOrder.TabIndex = 6;
+            this.btnOrder.Text = "Order";
+            this.btnOrder.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // label1
             // 
@@ -262,11 +268,25 @@
             // 
             // PanelContainer
             // 
+            this.PanelContainer.BackColor = System.Drawing.Color.Transparent;
+            this.PanelContainer.Controls.Add(this.pictureBox1);
             this.PanelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContainer.Location = new System.Drawing.Point(162, 25);
             this.PanelContainer.Name = "PanelContainer";
             this.PanelContainer.Size = new System.Drawing.Size(951, 560);
             this.PanelContainer.TabIndex = 2;
+            this.PanelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContainer_Paint_1);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(326, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(327, 279);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -286,6 +306,8 @@
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.PanelContainer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -302,7 +324,7 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btnOrder;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox6;
@@ -310,5 +332,6 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox4;
         private Guna.UI2.WinForms.Guna2ContainerControl PanelContianer;
         private Guna.UI2.WinForms.Guna2Panel PanelContainer;
+        private PictureBox pictureBox1;
     }
 }

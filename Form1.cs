@@ -2,7 +2,6 @@ namespace PBL3_Guna
 {
     public partial class Form1 : Form
     {
-        static Form1 _obj;
 
         public Panel PnlContainer
         {
@@ -31,11 +30,36 @@ namespace PBL3_Guna
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            if (btnHome.Enabled) {
-                UC_Home uchome = new UC_Home();
-                uchome.Dock = DockStyle.Fill;
-                PanelContainer.Controls.Add(uchome);
-            }
+            PanelContainer.Controls.Clear();
+            UC_Home uchome = new UC_Home();
+            uchome.Dock = DockStyle.Fill;
+            PanelContainer.Controls.Add(uchome);
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            PanelContainer.Controls.Clear();
+            UC_Order ucorder = new UC_Order();
+            ucorder.Dock = DockStyle.Fill;
+            PanelContainer.Controls.Add(ucorder);
+        }
+
+        private void PanelContainer_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            PanelContainer.Controls.Clear();
+            UC_Infromation ucin = new UC_Infromation();
+            ucin.Dock = DockStyle.Fill;
+            PanelContainer.Controls.Add(ucin);
+        }
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        
     }
 }
