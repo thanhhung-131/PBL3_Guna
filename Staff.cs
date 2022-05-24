@@ -1,6 +1,6 @@
 namespace PBL3_Guna
 {
-    public partial class Form1 : Form
+    public partial class Staff : Form
     {
 
         public Panel PnlContainer
@@ -13,7 +13,7 @@ namespace PBL3_Guna
         {
     
         }
-        public Form1()
+        public Staff()
         {
             InitializeComponent();
         }
@@ -60,6 +60,9 @@ namespace PBL3_Guna
             this.Close();
         }
 
-        
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace PBL3_Guna
 {
-    public partial class UC_Order : UserControl
+    public partial class UC_Item : UserControl
     {
-        public UC_Order()
+        public UC_Item()
         {
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void dtGridViewItem_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
