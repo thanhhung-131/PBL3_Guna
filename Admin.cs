@@ -35,18 +35,18 @@ namespace PBL3_Guna
 
         private void btnStaff_Click(object sender, EventArgs e)
         {
-            //PanelContainer.Controls.Clear();
-            //UC_Staff ucstaff = new UC_Staff();
-            //ucstaff.Dock = DockStyle.Fill;
-            //PanelContainer.Controls.Add(ucstaff);
+            PanelContainer.Controls.Clear();
+            UC_Staff ucstaff = new UC_Staff();
+            ucstaff.Dock = DockStyle.Fill;
+            PanelContainer.Controls.Add(ucstaff);
         }
 
         private void btnRevenue_Click(object sender, EventArgs e)
         {
-            //PanelContainer.Controls.Clear();
-            //UC_Revenue ucrevenue = new UC_Revenue();
-            //ucrevenue.Dock = DockStyle.Fill;
-            //PanelContainer.Controls.Add(ucrevenue);
+            PanelContainer.Controls.Clear();
+            UC_Revenue ucrevenue = new UC_Revenue();
+            ucrevenue.Dock = DockStyle.Fill;
+            PanelContainer.Controls.Add(ucrevenue);
         }
 
         private void btnLogout_Click(object sender, EventArgs e)

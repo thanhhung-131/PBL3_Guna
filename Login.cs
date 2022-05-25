@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace PBL3_Guna
 {
-    public partial class UC_Item : UserControl
+    public partial class Login : Form
     {
-        public UC_Item()
+        public Login()
         {
             InitializeComponent();
-        }
-
-        private void dtGridViewItem_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void txtSearch_TextChanged(object sender, EventArgs e)
-        {
-            
         }
     }
 }

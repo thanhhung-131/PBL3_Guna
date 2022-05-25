@@ -58,6 +58,7 @@
             // 
             // guna2Elipse1
             // 
+            this.guna2Elipse1.BorderRadius = 10;
             this.guna2Elipse1.TargetControl = this;
             // 
             // guna2Panel1
@@ -267,9 +268,13 @@
             this.btnHome.Text = "Home";
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
+            // guna2AnimateWindow1
+            // 
+            this.guna2AnimateWindow1.TargetForm = this;
+            // 
             // PanelContainer
             // 
-            this.PanelContainer.BackColor = System.Drawing.Color.Transparent;
+            this.PanelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(246)))), ((int)(((byte)(236)))));
             this.PanelContainer.Controls.Add(this.pictureBox1);
             this.PanelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContainer.Location = new System.Drawing.Point(162, 25);
