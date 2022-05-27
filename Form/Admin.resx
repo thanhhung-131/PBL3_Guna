@@ -64,35 +64,35 @@
   <metadata name="guna2Transition1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>648, 17</value>
   </metadata>
-  <data name="animation1.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation2.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAgD8L
 </value>
   </data>
-  <data name="animation1.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation2.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation1.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation2.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation1.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation2.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation1.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation2.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
@@ -376,6 +376,54 @@
   </data>
   <data name="&gt;&gt;guna2ControlBox1.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnLogout.Name" xml:space="preserve">
+    <value>btnLogout</value>
+  </data>
+  <data name="&gt;&gt;btnLogout.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
+  </data>
+  <data name="&gt;&gt;btnLogout.Parent" xml:space="preserve">
+    <value>guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnLogout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.Name" xml:space="preserve">
+    <value>guna2PictureBox1</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.Parent" xml:space="preserve">
+    <value>guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="guna2Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 635</value>
+  </data>
+  <data name="guna2Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.Name" xml:space="preserve">
+    <value>guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="btnLogout.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 9pt</value>
@@ -776,30 +824,6 @@
     <value>guna2Panel2</value>
   </data>
   <data name="&gt;&gt;guna2PictureBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="guna2Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 28</value>
-  </data>
-  <data name="guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 635</value>
-  </data>
-  <data name="guna2Panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel2.Name" xml:space="preserve">
-    <value>guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <metadata name="guna2AnimateWindow1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -1873,18 +1897,6 @@
   <data name="&gt;&gt;guna2ContainerControl1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="guna2ControlBox9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="guna2ControlBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>936, 0</value>
-  </data>
-  <data name="guna2ControlBox9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 28</value>
-  </data>
-  <data name="guna2ControlBox9.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
   <data name="&gt;&gt;guna2ControlBox9.Name" xml:space="preserve">
     <value>guna2ControlBox9</value>
   </data>
@@ -1897,18 +1909,6 @@
   <data name="&gt;&gt;guna2ControlBox9.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="guna2ControlBox8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="guna2ControlBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>997, 0</value>
-  </data>
-  <data name="guna2ControlBox8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 28</value>
-  </data>
-  <data name="guna2ControlBox8.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
   <data name="&gt;&gt;guna2ControlBox8.Name" xml:space="preserve">
     <value>guna2ControlBox8</value>
   </data>
@@ -1920,18 +1920,6 @@
   </data>
   <data name="&gt;&gt;guna2ControlBox8.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="guna2ControlBox7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="guna2ControlBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1058, 0</value>
-  </data>
-  <data name="guna2ControlBox7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 28</value>
-  </data>
-  <data name="guna2ControlBox7.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
   </data>
   <data name="&gt;&gt;guna2ControlBox7.Name" xml:space="preserve">
     <value>guna2ControlBox7</value>
@@ -2010,6 +1998,78 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="guna2ControlBox9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="guna2ControlBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>936, 0</value>
+  </data>
+  <data name="guna2ControlBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 28</value>
+  </data>
+  <data name="guna2ControlBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox9.Name" xml:space="preserve">
+    <value>guna2ControlBox9</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox9.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox9.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2ControlBox8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="guna2ControlBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>997, 0</value>
+  </data>
+  <data name="guna2ControlBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 28</value>
+  </data>
+  <data name="guna2ControlBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox8.Name" xml:space="preserve">
+    <value>guna2ControlBox8</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox8.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox8.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="guna2ControlBox7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="guna2ControlBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 0</value>
+  </data>
+  <data name="guna2ControlBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 28</value>
+  </data>
+  <data name="guna2ControlBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox7.Name" xml:space="preserve">
+    <value>guna2ControlBox7</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox7.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox7.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;guna2ControlBox7.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

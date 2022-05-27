@@ -60,5 +60,10 @@ namespace PBL3_Guna
         {
 
         }
+
+        private void guna2ContainerControl1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

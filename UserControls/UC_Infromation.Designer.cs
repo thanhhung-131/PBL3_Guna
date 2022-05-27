@@ -51,7 +51,7 @@
             // 
             // btnDetails
             // 
-            this.btnDetails.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnDetails.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnDetails.Animated = true;
             this.btnDetails.BorderRadius = 10;
             this.btnDetails.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
