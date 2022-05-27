@@ -16,42 +16,49 @@ namespace PBL3_Guna
         {
             InitializeComponent();
         }
+        public void addUserControl(UserControl userControl)
+        {
+            userControl.Dock = DockStyle.Fill;
+            guna2ContainerControl1.Controls.Clear();
+            guna2ContainerControl1.Controls.Add(userControl);
+            guna2ContainerControl1.BringToFront();
+        }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            PanelContainer.Controls.Clear();
+
             UC_Home uchome = new UC_Home();
-            uchome.Dock = DockStyle.Fill;
-            PanelContainer.Controls.Add(uchome);
+            addUserControl(uchome);
         }
 
         private void btnItem_Click(object sender, EventArgs e)
         {
-            PanelContainer.Controls.Clear();
             UC_Item ucitem = new UC_Item();
-            ucitem.Dock = DockStyle.Fill;
-            PanelContainer.Controls.Add(ucitem);
+            addUserControl(ucitem);
         }
 
         private void btnStaff_Click(object sender, EventArgs e)
         {
-            PanelContainer.Controls.Clear();
             UC_Staff ucstaff = new UC_Staff();
-            ucstaff.Dock = DockStyle.Fill;
-            PanelContainer.Controls.Add(ucstaff);
+            addUserControl((ucstaff));
         }
 
         private void btnRevenue_Click(object sender, EventArgs e)
         {
-            PanelContainer.Controls.Clear();
             UC_Revenue ucrevenue = new UC_Revenue();
-            ucrevenue.Dock = DockStyle.Fill;
-            PanelContainer.Controls.Add(ucrevenue);
+            addUserControl(ucrevenue);
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Login login = new Login();
+            login.Show();
+            Visible = false;
+        }
+
+        private void guna2ContainerControl1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

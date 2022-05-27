@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
             this.label1 = new System.Windows.Forms.Label();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ControlBox6 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -51,25 +51,23 @@
             this.guna2ControlBox8 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox7 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.PanelContainer = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.guna2ContainerControl1 = new Guna.UI2.WinForms.Guna2ContainerControl();
+            this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
-            this.PanelContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.guna2ContainerControl1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label1.Name = "label1";
             // 
             // btnHome
@@ -79,6 +77,7 @@
             this.btnHome.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnHome.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
             this.btnHome.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.guna2Transition1.SetDecoration(this.btnHome, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -94,6 +93,7 @@
             // 
             resources.ApplyResources(this.guna2ControlBox6, "guna2ControlBox6");
             this.guna2ControlBox6.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2Transition1.SetDecoration(this.guna2ControlBox6, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2ControlBox6.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox6.ForeColor = System.Drawing.Color.Black;
             this.guna2ControlBox6.IconColor = System.Drawing.Color.Black;
@@ -103,6 +103,7 @@
             // 
             resources.ApplyResources(this.guna2ControlBox5, "guna2ControlBox5");
             this.guna2ControlBox5.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.guna2Transition1.SetDecoration(this.guna2ControlBox5, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2ControlBox5.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox5.ForeColor = System.Drawing.Color.Black;
             this.guna2ControlBox5.IconColor = System.Drawing.Color.Black;
@@ -111,6 +112,7 @@
             // guna2ControlBox4
             // 
             resources.ApplyResources(this.guna2ControlBox4, "guna2ControlBox4");
+            this.guna2Transition1.SetDecoration(this.guna2ControlBox4, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2ControlBox4.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox4.ForeColor = System.Drawing.Color.Black;
             this.guna2ControlBox4.IconColor = System.Drawing.Color.Black;
@@ -120,6 +122,7 @@
             // 
             resources.ApplyResources(this.guna2ControlBox3, "guna2ControlBox3");
             this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2Transition1.SetDecoration(this.guna2ControlBox3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2ControlBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox3.IconColor = System.Drawing.Color.Black;
             this.guna2ControlBox3.Name = "guna2ControlBox3";
@@ -128,6 +131,7 @@
             // 
             resources.ApplyResources(this.guna2ControlBox2, "guna2ControlBox2");
             this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.guna2Transition1.SetDecoration(this.guna2ControlBox2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox2.IconColor = System.Drawing.Color.Black;
             this.guna2ControlBox2.Name = "guna2ControlBox2";
@@ -139,6 +143,7 @@
             this.btnRevenue.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnRevenue.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
             this.btnRevenue.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.guna2Transition1.SetDecoration(this.btnRevenue, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnRevenue.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnRevenue.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnRevenue.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -157,6 +162,7 @@
             this.btnStaff.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnStaff.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
             this.btnStaff.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.guna2Transition1.SetDecoration(this.btnStaff, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnStaff.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnStaff.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnStaff.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -175,6 +181,7 @@
             this.btnItem.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnItem.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
             this.btnItem.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.guna2Transition1.SetDecoration(this.btnItem, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnItem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnItem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnItem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -189,6 +196,7 @@
             // guna2ControlBox1
             // 
             resources.ApplyResources(this.guna2ControlBox1, "guna2ControlBox1");
+            this.guna2Transition1.SetDecoration(this.guna2ControlBox1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
             this.guna2ControlBox1.Name = "guna2ControlBox1";
@@ -204,6 +212,7 @@
             this.guna2Panel2.Controls.Add(this.btnItem);
             this.guna2Panel2.Controls.Add(this.label1);
             this.guna2Panel2.Controls.Add(this.btnHome);
+            this.guna2Transition1.SetDecoration(this.guna2Panel2, Guna.UI2.AnimatorNS.DecorationType.None);
             resources.ApplyResources(this.guna2Panel2, "guna2Panel2");
             this.guna2Panel2.Name = "guna2Panel2";
             // 
@@ -214,6 +223,7 @@
             this.btnLogout.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnLogout.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
             this.btnLogout.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.guna2Transition1.SetDecoration(this.btnLogout, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnLogout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnLogout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnLogout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -227,6 +237,7 @@
             // 
             // guna2PictureBox1
             // 
+            this.guna2Transition1.SetDecoration(this.guna2PictureBox1, Guna.UI2.AnimatorNS.DecorationType.None);
             resources.ApplyResources(this.guna2PictureBox1, "guna2PictureBox1");
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Name = "guna2PictureBox1";
@@ -248,6 +259,7 @@
             this.guna2Panel1.Controls.Add(this.guna2ControlBox3);
             this.guna2Panel1.Controls.Add(this.guna2ControlBox2);
             this.guna2Panel1.Controls.Add(this.guna2ControlBox1);
+            this.guna2Transition1.SetDecoration(this.guna2Panel1, Guna.UI2.AnimatorNS.DecorationType.None);
             resources.ApplyResources(this.guna2Panel1, "guna2Panel1");
             this.guna2Panel1.Name = "guna2Panel1";
             // 
@@ -255,6 +267,7 @@
             // 
             resources.ApplyResources(this.guna2ControlBox9, "guna2ControlBox9");
             this.guna2ControlBox9.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2Transition1.SetDecoration(this.guna2ControlBox9, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2ControlBox9.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox9.ForeColor = System.Drawing.Color.Black;
             this.guna2ControlBox9.IconColor = System.Drawing.Color.Black;
@@ -264,6 +277,7 @@
             // 
             resources.ApplyResources(this.guna2ControlBox8, "guna2ControlBox8");
             this.guna2ControlBox8.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.guna2Transition1.SetDecoration(this.guna2ControlBox8, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2ControlBox8.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox8.ForeColor = System.Drawing.Color.Black;
             this.guna2ControlBox8.IconColor = System.Drawing.Color.Black;
@@ -272,6 +286,7 @@
             // guna2ControlBox7
             // 
             resources.ApplyResources(this.guna2ControlBox7, "guna2ControlBox7");
+            this.guna2Transition1.SetDecoration(this.guna2ControlBox7, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2ControlBox7.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox7.ForeColor = System.Drawing.Color.Black;
             this.guna2ControlBox7.IconColor = System.Drawing.Color.Black;
@@ -282,35 +297,72 @@
             this.guna2Elipse1.BorderRadius = 10;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // PanelContainer
+            // guna2DragControl1
             // 
-            this.PanelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(246)))), ((int)(((byte)(236)))));
-            this.PanelContainer.Controls.Add(this.pictureBox1);
-            resources.ApplyResources(this.PanelContainer, "PanelContainer");
-            this.PanelContainer.Name = "PanelContainer";
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this.guna2Panel1;
+            this.guna2DragControl1.UseTransparentDrag = true;
+            // 
+            // guna2ShadowForm1
+            // 
+            this.guna2ShadowForm1.TargetForm = this;
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.pictureBox1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // guna2ContainerControl1
+            // 
+            this.guna2ContainerControl1.Controls.Add(this.pictureBox1);
+            this.guna2Transition1.SetDecoration(this.guna2ContainerControl1, Guna.UI2.AnimatorNS.DecorationType.None);
+            resources.ApplyResources(this.guna2ContainerControl1, "guna2ContainerControl1");
+            this.guna2ContainerControl1.Name = "guna2ContainerControl1";
+            // 
+            // guna2Transition1
+            // 
+            this.guna2Transition1.Cursor = null;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation1;
             // 
             // Admin
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.PanelContainer);
+            this.Controls.Add(this.guna2ContainerControl1);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
+            this.guna2Transition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Admin";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
-            this.PanelContainer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.guna2ContainerControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Label label1;
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox6;
@@ -331,6 +383,10 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox9;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox8;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox7;
-        private Panel PanelContainer;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
+        private Guna.UI2.WinForms.Guna2ContainerControl guna2ContainerControl1;
+        private PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2Transition guna2Transition1;
     }
 }

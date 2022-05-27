@@ -16,5 +16,25 @@ namespace PBL3_Guna
         {
             InitializeComponent();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnSignup_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

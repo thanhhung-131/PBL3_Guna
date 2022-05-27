@@ -28,13 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnDetails = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(243)))), ((int)(((byte)(224)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(150, 3);
@@ -46,6 +51,7 @@
             // 
             // btnDetails
             // 
+            this.btnDetails.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDetails.Animated = true;
             this.btnDetails.BorderRadius = 10;
             this.btnDetails.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
@@ -64,6 +70,10 @@
             this.btnDetails.TabIndex = 4;
             this.btnDetails.Text = "Details";
             // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this;
+            // 
             // UC_Infromation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -81,5 +91,6 @@
 
         private DataGridView dataGridView1;
         private Guna.UI2.WinForms.Guna2Button btnDetails;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }
