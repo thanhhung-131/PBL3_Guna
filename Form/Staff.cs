@@ -27,21 +27,23 @@ namespace PBL3_Guna
         {
 
         }
-
+        public void addUserControl(UserControl userControl)
+        {
+            userControl.Dock = DockStyle.Fill;
+            PanelContainer.Controls.Clear();
+            PanelContainer.Controls.Add(userControl);
+            PanelContainer.BringToFront();
+        }
         private void btnHome_Click(object sender, EventArgs e)
         {
-            PanelContainer.Controls.Clear();
             UC_Home uchome = new UC_Home();
-            uchome.Dock = DockStyle.Fill;
-            PanelContainer.Controls.Add(uchome);
+            addUserControl(uchome);
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            PanelContainer.Controls.Clear();
             UC_Order ucorder = new UC_Order();
-            ucorder.Dock = DockStyle.Fill;
-            PanelContainer.Controls.Add(ucorder);
+            addUserControl(ucorder);
         }
 
         private void PanelContainer_Paint_1(object sender, PaintEventArgs e)
@@ -50,10 +52,8 @@ namespace PBL3_Guna
         }
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            PanelContainer.Controls.Clear();
             UC_Infromation ucin = new UC_Infromation();
-            ucin.Dock = DockStyle.Fill;
-            PanelContainer.Controls.Add(ucin);
+            addUserControl(ucin);
         }
         private void guna2Button4_Click(object sender, EventArgs e)
         {
