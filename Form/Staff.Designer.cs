@@ -157,7 +157,7 @@
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 23);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(159, 562);
+            this.guna2Panel2.Size = new System.Drawing.Size(159, 640);
             this.guna2Panel2.TabIndex = 1;
             // 
             // guna2PictureBox1
@@ -280,7 +280,7 @@
             this.PanelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContainer.Location = new System.Drawing.Point(159, 23);
             this.PanelContainer.Name = "PanelContainer";
-            this.PanelContainer.Size = new System.Drawing.Size(954, 562);
+            this.PanelContainer.Size = new System.Drawing.Size(954, 640);
             this.PanelContainer.TabIndex = 2;
             this.PanelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContainer_Paint_1);
             // 
@@ -293,7 +293,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(326, 15);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(327, 279);
+            this.pictureBox1.Size = new System.Drawing.Size(327, 357);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -314,7 +314,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1113, 585);
+            this.ClientSize = new System.Drawing.Size(1113, 663);
             this.Controls.Add(this.PanelContainer);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
