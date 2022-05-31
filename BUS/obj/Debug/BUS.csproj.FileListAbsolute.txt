@@ -33,3 +33,16 @@ C:\Users\Manh Nguyen\source\repos\GUNA\BUS\obj\Debug\BUS.csproj.CoreCompileInput
 C:\Users\Manh Nguyen\source\repos\GUNA\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\Manh Nguyen\source\repos\GUNA\BUS\obj\Debug\BUS.dll
 C:\Users\Manh Nguyen\source\repos\GUNA\BUS\obj\Debug\BUS.pdb
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\bin\Debug\BUS.dll
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\bin\Debug\BUS.pdb
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\bin\Debug\DAO.dll
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\bin\Debug\DTO.dll
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\bin\Debug\System.Data.SqlClient.dll
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\bin\Debug\DAO.pdb
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\bin\Debug\DTO.pdb
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\bin\Debug\System.Data.SqlClient.xml
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\obj\Debug\BUS.dll
+C:\Users\DELL\Downloads\PBL3_GUNA\BUS\obj\Debug\BUS.pdb
